@@ -1,0 +1,12 @@
+notizen = input("Deine Notizen sind aktuell leer. Füge welche hinzu, in dem du sie hier eingibst: ")
+print("Deine Notizen lauten: " + notizen)
+frage = input("Möchtest du eine weitere Notiz hinzufügen? Ja/Nein: ")
+
+if frage == "Ja":
+    notizen2 = input("Bitte gebe die Notiz jetzt ein:")
+    print("Deine Notizen lauten: " + notizen + "|" + notizen2)
+
+if frage == "Nein":
+    print("Deine Eingabe wurde beendet.")    
+
+exit()
